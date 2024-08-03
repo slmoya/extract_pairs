@@ -1,4 +1,4 @@
-# email_password_extractor
+# Extract_Pairs
 
 This script extracts email:password pairs from text files in a directory and writes them to a specified output file. It is designed to handle large datasets efficiently by processing files line by line and leveraging multiprocessing for concurrent processing.
 
@@ -19,8 +19,8 @@ This script extracts email:password pairs from text files in a directory and wri
 
 1. Clone the repository:
 ```
-git clone https://github.com/slmoya/email_password_extractor.git
-cd email-password-extractor
+git clone https://github.com/slmoya/extract_pairs.git
+cd extract_pairs
 ```
 
 1. Install the required Python packages:
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 3. Usage:
 ```
-python3 email_password_extractor.py <input_directory> <output_file>
+python3 extract_pairs.py <input_directory> <output_file>
 ```
 
 Arguments
@@ -39,7 +39,7 @@ Arguments
 
 ## Example
 ```
-python3 email_password_extractor.py /path/to/input_directory /path/to/output_file.txt
+python3 extract_pairs.py /path/to/input_directory /path/to/output_file.txt
 
 ```
 
