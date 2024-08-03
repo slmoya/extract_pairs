@@ -19,7 +19,7 @@ This script extracts email:password pairs from text files in a directory and wri
 
 1. Clone the repository:
 ```
-git clone https://https://github.com/slmoya/email_password_extractor.git
+git clone https://github.com/slmoya/email_password_extractor.git
 cd email-password-extractor
 ```
 
