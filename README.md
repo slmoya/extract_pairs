@@ -43,15 +43,15 @@ python3 extract_pairs.py /path/to/input_directory /path/to/output_file.txt
 
 ```
 
-File Structure
+### File Structure
 The script processes files in the specified input directory, including files in nested directories, and extracts email
 pairs. The results are written directly to the specified output file.
 
-Logging
+### Logging
 The script logs its progress and memory usage. The memory monitoring runs in a separate thread and logs the memory usage every 5 seconds.
 
-Contributing
+### Contributing
 If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
